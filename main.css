@@ -169,7 +169,7 @@
 
 }
 
-.card-heading-2{
+.card-heading-2 {
     font-size: 14px;
     line-height: 1.5714285714285714em;
     font-family: "Outfit", sans-serif;
@@ -182,7 +182,7 @@
 
 
 
-.card-heading-3{
+.card-heading-3 {
     font-size: 20px;
     line-height: 1.4em;
     font-family: "Outfit", sans-serif;
@@ -197,6 +197,7 @@
 .bill_4 {
     margin-left: -12px;
 }
+
 .ducoment_01 {
     margin-right: 42px;
 }
@@ -236,22 +237,23 @@
 }
 
 
- 
+
 
 
 
 
 
 .bill_2 {
-   
+
     font-size: 18px;
     font-weight: 500;
     line-height: 1.5555555555555556em;
     font-family: "Outfit", sans-serif;
     color: #2E2E32;
     padding-top: 8px;
-    
+
 }
+
 .bill_3 {
     margin-left: -36px;
 }
@@ -280,25 +282,40 @@
     transition: .5s ease-in-out;
 
 }
-.card--btn:hover{
-    background-color:#7842E8;
+
+.card--btn:hover {
+    background-color: #7842E8;
     color: #FFF;
 }
 
 
 .tab_card,
 .card-2 {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 0px  2px 24px;
- 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 0px 2px 24px;
+
 }
+
 /* --=============== Section-02END  ===============-- */
 
 
 /* --=============== Section-03  STRAT ===============--  -- */
 
 .section-03 {
-background-image: url(LIGAL_IMG/Ellipse\ 342.png);
-background-position: right;
-min-height: 485px;
+    background-image: url(LIGAL_IMG/Ellipse\ 342.png);
+    background-position: right;
+    min-height: 485px;
+    background-repeat: no-repeat;
+    padding-top: 160px;
 }
 
+.sect-3_heading {
+    text-align: center;
+    font-size: 42px;
+    line-height: 1.2976190476190477em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: #2E2E32;
+
+
+
+}
