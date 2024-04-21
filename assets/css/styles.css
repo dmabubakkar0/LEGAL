@@ -135,6 +135,9 @@ a {
     left: 0;
     top: 2.5rem;
     width: 100%;
+    background-color: #ffffff8a;
+    backdrop-filter: blur(4.5px);
+
     height: calc(100vh - 3.5rem);
     overflow: auto;
     pointer-events: none;
