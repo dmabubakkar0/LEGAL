@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abril+Fatface&family=Aguafina+Script&family=Outfit:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Outfit", sans-serif;
+text-decoration: none;
+list-style: none;
+}
+.container-main{
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: auto;
+}
+
+/* ==================STRAT=============//====== */
+
+.get-buttom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-left: 120px;
+}
+ 
+
+.get-buttom .Loging {
+font-size: 16px;
+line-height: 1.2rem;
+font-family: "Outfit", sans-serif;
+font-weight: 400;
+color: #2E2E32;
+}
+ 
+.get-buttom  .main-get a {
+    font-size: 16px;
+    line-height: 1.2rem;
+    color:#7842E8;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    background-color:transparent;
+    padding: 12px 24px 12px 48px;
+    border-radius: 8px;
+    border: 1px solid #7842E8;
+
+}
