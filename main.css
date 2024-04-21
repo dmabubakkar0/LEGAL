@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abril+Fatface&family=Aguafina+Script&family=Outfit:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: "Outfit", sans-serif;
-text-decoration: none;
-list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
-.container-main{
+
+.container-main {
     max-width: 1200px;
     padding: 0 30px;
     margin: auto;
@@ -23,25 +24,107 @@ list-style: none;
     gap: 25px;
     padding-left: 120px;
 }
- 
+
 
 .get-buttom .Loging {
-font-size: 16px;
-line-height: 1.2rem;
-font-family: "Outfit", sans-serif;
-font-weight: 400;
-color: #2E2E32;
-}
- 
-.get-buttom  .main-get a {
     font-size: 16px;
     line-height: 1.2rem;
-    color:#7842E8;
     font-family: "Outfit", sans-serif;
     font-weight: 400;
-    background-color:transparent;
+    color: #2E2E32;
+}
+
+.get-buttom .main-get a {
+    font-size: 16px;
+    line-height: 1.2rem;
+    color: #7842E8;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    background-color: transparent;
     padding: 12px 24px 12px 48px;
     border-radius: 8px;
     border: 1px solid #7842E8;
 
+}
+
+
+.section-02 {
+    background-image: url(LIGAL_IMG/Ellipse\ 343.png);
+    background-repeat: no-repeat;
+    min-height: 1023px;
+    padding-top: 160px;
+
+}
+
+.hero--heading {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.588888888888889em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: #7842E8;
+}
+
+.hero-heading {
+    text-align: center;
+    font-size: 66px;
+    line-height: 1.2969696969696969em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: #2E2E32;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.hero-p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #919099;
+}
+
+.tab-seection-hero {
+    max-width: 1140px;
+    min-height: 603px;
+    border: 1px solid red;
+}
+
+.main-tab-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.tab-btn {
+    display: flex;
+
+    align-items: center;
+    gap: 13px;
+    width: 145px;
+    height: 38px;
+    border: 1px solid #7842E8;
+    border-radius: 45px;
+}
+
+
+.montly {
+    padding: 8px 16px 8px 16px;
+    background-color: #7842E8;
+    border-radius: 20px;
+    font-size: 12px;
+    line-height: 1.6333333333333335em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #FFF;
+
+}
+
+.yearly {
+    font-size: 14px;
+    line-height: 1.5714285714285714em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+color: #7842E8;
 }
