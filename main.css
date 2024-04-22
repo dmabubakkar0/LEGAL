@@ -291,7 +291,7 @@
 .tab_card {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
- 
+
 
 /* --=============== Section-02END  ===============-- */
 
@@ -327,12 +327,12 @@
 }
 
 .sect-3_cards {
-   display: grid;
-   grid-template-columns:  repeat(4, 1fr);
-   gap: 29px;
-   align-items: center;
-   justify-items: center;
-padding-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 29px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 64px;
 
 
 
@@ -344,7 +344,7 @@ padding-top: 64px;
     background-color: rgb(255, 255, 255);
     text-align: center;
     transition: .50s ease-in-out;
-  padding: 30px 20px;
+    padding: 30px 20px;
 }
 
 .Landing__H4 {
@@ -364,7 +364,7 @@ padding-top: 64px;
     padding-top: 12px;
 }
 
-.sect-3-card:hover{
+.sect-3-card:hover {
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 
 }
@@ -374,9 +374,229 @@ padding-top: 64px;
 
 
 .section-04 {
-    background-image: url(LIGAL_IMG/Ellipse\ 332.png), url( LIGAL_IMG/Ellipse\ 342\ \(1\).png);
-  background-position:bottom left, right top;
-  background-repeat: no-repeat, no-repeat;
-   min-height: 770px;
+    background-image: url(LIGAL_IMG/Ellipse\ 332.png), url(LIGAL_IMG/Ellipse\ 342\ \(1\).png);
+    background-position: bottom left, right top;
+    background-repeat: no-repeat, no-repeat;
+    min-height: 770px;
+    padding-top: 160px;
+}
+
+
+.sect--4-H {
+    text-align: center;
+    font-size: 42px;
+    line-height: 1.2857142857142858em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: #2E2E32
+}
+
+.sect--04_P {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #919099;
+    padding-top: 16px;
+    padding-bottom: 64px;
+
+}
+
+.parent-from {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+.prant-left__side {
+    max-width: 556px;
+    min-height: 450px;
+
+    background-image: url(LIGAL_IMG/Vector\ 329.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+.first___box {
+    display: flex;
+    gap: 12px;
+
+    max-width: 468px;
+
+
+}
+
+.first__box_img {
+    background-color: #ffffff93;
+    width: 86px;
+    height: 86px;
+    padding: 18px 18px;
+    border-radius: 50px;
+    filter: drop-shadow(1px 2px 52px #2726263d);
+}
+
+.first___box_text h5 {
+    font-size: 20px;
+    line-height: 1.4em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: #2E2E32;
+
+}
+
+.first___box_text p {
+
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #919099;
+    padding-top: 12px;
+
+
+}
+
+.secend___box {
+    display: flex;
+    gap: 12px;
+    max-width: 468px;
+    padding-top: 64px;
+    position: absolute;
+    right: 0;
+}
+
+.secend___box_text h5 {
+    text-align: right;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: #2E2E32;
+
+}
+
+
+.secend___box_text p {
+    text-align: right;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #919099;
+}
+
+
+
+.secend__box_img {
+    background-color: #ffffff93;
+    width: 86px;
+    height: 86px;
+    padding: 18px 18px;
+    border-radius: 50px;
+    filter: drop-shadow(1px 2px 52px #2726263d);
+}
+
+
+
+
+
+.third__box_img {
+    background-color: #ffffff93;
+    width: 86px;
+    height: 86px;
+    padding: 18px 18px;
+    border-radius: 50px;
+    filter: drop-shadow(1px 2px 52px #2726263d);
+}
+
+
+.third___box {
+    display: flex;
+    gap: 12px;
+    max-width: 468px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.hird___box_text h5 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: #2E2E32;
+
+}
+
+
+.third___box_text p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #919099;
+}
+
+/* ==========LEFT SIDE END======= */
+
+.prant-left__right {
+    max-width: 543px;
+
+
+    background-image: url(LIGAL_IMG/Ellipse\ 350.png);
+    background-repeat: no-repeat;
+
+}
+
+ .over__view {
+   max-width:451px ;  
+    min-height: 371px;
+    background-color: #ffffffa4;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 20px;
+    position: relative;
+}
+.over-view__main {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.time {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 16px;
+}
+.three_dot {
+    width: 30px;
+    height: 30px;
+}
+
+.over__text_H3 {
+   
+    font-size: 20px;
+    line-height: 1.4em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color:  #2E2E32;
+}
+.time p {
+
+    font-size: 12px;
+    line-height: 1.1em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #919099;
 }
  
+ .tip{ 
+        position: absolute;
+        margin-top: -30px;
+        padding-left: 122px;
+ }
