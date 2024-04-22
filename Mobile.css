@@ -1,0 +1,58 @@
+@media (min-width:280px) and (max-width:767px) {
+    
+
+/* ========SECTION-02===---== */
+
+.section-02 {
+    
+    padding-top: 45px;
+}
+
+
+
+
+.hero-heading {
+    
+    font-size: 28px;
+   
+}
+
+.hero-p {
+     
+    font-size: 16px;
+ 
+}
+
+/* ========SECTION-03===---== */
+
+.section-03 {
+      
+    padding-top: 45px;
+}
+
+
+.sect-3_heading {
+      
+    font-size: 28px;
+   
+}
+
+
+
+    .sect-3_cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:15px;
+        align-items: center;
+        justify-items: center;
+        padding-top: 64px;
+    }
+
+
+
+/* ========SECTION-04===---== */
+
+
+
+
+}

@@ -1,0 +1,50 @@
+@media (min-width:768px) and (max-width:1080px)  {
+
+
+
+/* ========SECTION-02===---== */
+
+
+.section-02 {
+    padding-top: 80px;
+}
+
+
+.hero-heading {
+     
+    font-size: 47px;
+   
+}
+
+
+
+
+
+
+/* ========SECTION-02 END===---== */
+
+
+
+
+/* ========SECTION-03===---== */
+
+.section-03 {
+ 
+    padding-top: 80px;
+}
+
+
+    .sect-3_cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 22px 0px;
+    }
+
+/* ========SECTION-03 END===---== */
+
+/* ========SECTION-04 STRAT===---== */
+
+
+
+    
+}
