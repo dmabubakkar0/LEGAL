@@ -370,6 +370,13 @@ padding-top: 64px;
 }
 
 
+/* --===============04===============-- */
+
+
+.section-04 {
+    background-image: url(LIGAL_IMG/Ellipse\ 332.png), url( LIGAL_IMG/Ellipse\ 342\ \(1\).png);
+  background-position:bottom left, right top;
+  background-repeat: no-repeat, no-repeat;
+   min-height: 770px;
+}
  
-
-
