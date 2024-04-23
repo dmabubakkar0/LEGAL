@@ -412,7 +412,7 @@
 
 .prant-left__side {
     max-width: 556px;
-    min-height: 450px;
+    min-height:450px;
 
     background-image: url(LIGAL_IMG/Vector\ 329.png);
     background-repeat: no-repeat;
@@ -547,21 +547,22 @@
 
 .prant-left__right {
     max-width: 543px;
-
-
     background-image: url(LIGAL_IMG/Ellipse\ 350.png);
     background-repeat: no-repeat;
-
+    background-position-x: 314;
+    margin-left: 97px;
 }
-
- .over__view {
-   max-width:451px ;  
+.over__view {
+    max-width: 451px;
     min-height: 371px;
     background-color: #ffffffa4;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 20px 20px;
     position: relative;
+    top: 71px;
+    right: 90px;
 }
+ 
 .over-view__main {
     display: flex;
     justify-content: space-between;
@@ -600,3 +601,162 @@
         margin-top: -30px;
         padding-left: 122px;
  }
+
+ .case {
+    width: 242px;
+    height: 286px;
+    background-color:  #ffffffe5;
+    position: absolute;
+    right: -95px;
+    bottom: -82px;
+    padding: 12px 12px 13px 12px;
+    filter: drop-shadow(2px 2px 52px  #2726262d);
+    border-radius: 9.23px;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.top h6 {
+    font-size: 15.39px;
+    line-height:  1.3996101364522415em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: #2E2E32;
+}
+
+
+.view__btn {
+   
+    background-color: #FFF;
+    padding: 3.08px 6.16px;
+    border: 0.77px solid #DBDADF;
+    border-radius: 3.08px;
+    
+}
+
+.view__btn a {
+    font-size:9.23px;
+    line-height:   1.600216684723727em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color:  #919099;
+}
+
+
+
+.P--all {
+    
+    font-size:9.23px;
+    line-height:   1.600216684723727em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color:   #2e2e32b9;
+
+}
+
+
+
+
+.top__case {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+ 
+
+
+/* <!--=============== SECTION-05 ===============--> */
+.section-05 {
+    background-color: #F9F6FF;
+    min-height: 955px;
+   margin-top: 160px;
+   padding-top: 150px;
+}
+.sect-05-heading{
+max-width: 750px;
+margin: auto;
+text-align: center;
+
+}
+.sect-05-heading h2 {
+    
+    padding-bottom: 16px;
+
+    font-size: 42px;
+    line-height:  1.2976190476190477em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color:  #2E2E32;
+
+}
+.sect-05-heading p {
+
+    font-size: 16px;
+    line-height:  1.6em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #919099;
+    padding-bottom: 64px;
+}
+
+.sect-left-side{
+    max-width: 439px;
+    min-height: 468px;
+  
+
+}
+
+
+.Billable {
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+}
+
+
+
+
+.billa{
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height:  1.6em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color:  #2E2E32;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+
+.babli-prent {
+    display: flex;
+    gap: 32px;
+}
+#browser {
+    max-width: 247px;
+ text-align: center;
+    background-color:#F4EFFF;
+    
+  border: 1px solid #DBDADF;
+    border-radius: 8px;
+  padding: 16px 16px 16px 16px;
+}
+#browser:hover{
+    
+}
+
+.hours-spnt{
+    padding-top: 48px;
+
+}
+
+.hour-spnt-P {
+    padding-bottom: 20px;
+}
+
