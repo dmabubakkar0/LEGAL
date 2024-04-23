@@ -758,5 +758,69 @@ text-align: center;
 
 .hour-spnt-P {
     padding-bottom: 20px;
+
+    font-size: 16px;
+    line-height:  1.59375em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color:  #2E2E32;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
 }
 
+.spnt {
+    padding-left: 266px;
+    text-align: center;
+    padding-bottom: 9px;
+    font-size: 14px;
+    line-height: 1.1857142857142857em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: #7842E8;
+}
+
+
+
+
+.hours-Rate {
+    padding-top: 48px;
+}
+ 
+
+.rate {
+    padding-right: 49px;
+    text-align: center;
+    padding-bottom: 9px;
+    font-size: 14px;
+    line-height:  1.1857142857142857em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color:   #7842E8;
+    
+}
+.plan {
+    padding-top: 48px;
+}
+.selected {
+    padding-top: 20px;
+    display: flex;
+    gap: 23px;
+}
+.choice {
+    background-color: #FFF;
+    Padding: 12px  24px 12px 24px;
+    border-radius: 8px;
+    border: 1px solid #DBDADF;
+    transition: .50s ease-in-out;
+    font-size: 16px;
+    line-height: 1.222222em;
+    font-weight: 400;
+    color: #919099;
+
+}
+.choice:hover{
+    background-color: #7842E8;
+    color: #FFF;
+}
