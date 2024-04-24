@@ -953,3 +953,147 @@ font-family: "Outfit", sans-serif;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+
+/* <!-- =======SECTION--FOOTER=======----== --> */
+.footer {
+    min-height: 516px;
+    background-image: url(LIGAL_IMG/Hero\ bg.png);
+    background-repeat: no-repeat;
+ background-size: cover;
+    margin-top: 160px;
+    padding-top: 123px;
+}
+
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 80px;
+    align-items: center;
+}
+
+
+
+
+
+
+.first-footer {
+    max-width: 262px;
+    min-height: 228px;
+   
+ 
+}
+
+
+
+.dics--footer {
+    color: #919099;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    font-size: 14px;
+    line-height: 1.5999999999999999em;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.socile-icon {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.socile-icon  a{
+background-color: 
+#060615;
+padding: 14px 14px;
+border: 1px solid #9999BD40;
+border-radius: 8px;
+color: #FFF;
+transition: all 0.5s ease-in-out;
+ 
+}
+.socile-icon  a:hover{
+    background-color: #7842E8;
+    color: #FFF;
+}
+.ri-facebook-box-fill,
+.ri-instagram-line,
+.ri-youtube-line{
+    font-size: 25px;
+}
+ 
+
+.secend-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+ .product  .product_h {
+    color: #DBDADF;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height:  1.4em;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+}
+
+
+.product ul  a {
+    font-size: 14px;
+    line-height: 1.5714285714285714em;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    color:#919099;
+    
+}
+.li-1,
+.li-2,
+.li-3,
+.li-4 {
+    padding-bottom: 12px;
+}
+
+.third-footer {
+max-width: 379px;
+min-height:240px ;
+border: 1px solid #FFF;
+padding-top: 20px;
+}
+.third-footer h5 {
+    color: #FFFF;
+}
+ 
+
+.email-box{
+   padding:20px 20px 24px 20px ;
+    background-color:  #19192D;
+    border-radius: 8px;
+    position: relative;
+   
+}
+
+ 
+
+.email-main p {
+    padding-bottom: 12px;
+    color: #FFF;
+}
+#emil-icon {
+    position: absolute;
+    padding-top: 14px;
+    right: 110px;
+    color: #FFF;
+}
+
+#email {
+    background-color: #19192D;
+   
+    border: 1px solid #2B2B3F;
+    padding: 10px 12px;
+}
+ 
