@@ -1,0 +1,98 @@
+:root {
+    --border-color: #cccccc;
+    --background-color: #f1f1f1;
+    --transition: all 0.2s ease;
+  }
+  
+ 
+  main {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 500px;
+  }
+  
+  .accordion .accordion-item {
+    background-color: var(--background-color);
+    border-left: 2px solid #917AFF;
+ 
+    border-radius: 5px;
+  }
+  
+  .accordion .accordion-item .accordion-item-description-wrapper hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    visibility: visible;
+  }
+  
+  .accordion .accordion-item.open .accordion-item-description-wrapper hr {
+    visibility: visible;
+  }
+  
+  .accordion .accordion-item .accordion-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:16px 14px 16px ;
+    border: 1px solid #EBE7FF;
+    background-color: #FFF;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1.8em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color:  #919099;
+
+
+  }
+ 
+  
+  
+  .accordion .accordion-item .accordion-item-header .accordion-item-header-icon {
+    transition: var(--transition);
+  }
+  
+  .accordion
+    .accordion-item.open
+    .accordion-item-header
+    .accordion-item-header-icon {
+    transform: rotate(-180deg);
+  }
+  
+  .accordion .accordion-item .accordion-item-description-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: var(--transition);
+  }
+  
+  .accordion .accordion-item.open .accordion-item-description-wrapper {
+    grid-template-rows: 1fr;
+  }
+  
+  .accordion
+    .accordion-item
+    .accordion-item-description-wrapper
+    .accordion-item-description {
+    min-height: 0;
+    border-left: 2px solid #917AFF;
+  }
+  
+  .accordion
+    .accordion-item
+    .accordion-item-description-wrapper
+    .accordion-item-description
+    p {
+    padding: 10px;
+    line-height: 1.5;
+    background-color:  #fbd6ff33
+  } 
+  

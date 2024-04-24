@@ -703,6 +703,15 @@ text-align: center;
     padding-bottom: 64px;
 }
 
+
+.prent {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 61px;
+}
+
+
+
 .sect-left-side{
     max-width: 439px;
     min-height: 468px;
@@ -803,6 +812,19 @@ text-align: center;
 .plan {
     padding-top: 48px;
 }
+
+.Ligal-plan {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+}
+
+
+
 .selected {
     padding-top: 20px;
     display: flex;
@@ -817,10 +839,117 @@ text-align: center;
     font-size: 16px;
     line-height: 1.222222em;
     font-weight: 400;
+    font-family: "Outfit", sans-serif;
     color: #919099;
 
 }
 .choice:hover{
     background-color: #7842E8;
     color: #FFF;
+}
+
+.sect--right-side {
+    max-width: 537px;
+    min-height: 468px;
+  
+    background-color: #FFF;
+}
+
+.Right-H{
+    text-align: center;
+    font-size:20px ;
+    line-height: 1.4em;
+    font-weight: 400;
+    color: #2E2E32;
+    font-family: "Outfit", sans-serif;
+    padding-top: 24.25px;
+}
+.right-h2{
+    text-align: center;
+    font-size: 42px;
+    line-height: 1.2133333333333334em;
+    font-weight: 500;
+    color: #7842E8;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.all-about {
+ 
+}
+
+
+.hourluy {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFF;
+    border: 1px solid #dbdadf6e;
+    border-radius: 8px;
+    padding: 16px 16px;
+    margin-top: 24px;
+}
+.hourluy  .Time-and--rate  {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    line-height: 1.5885714285714285em;
+    font-style: 400;
+    font-family: "Outfit", sans-serif;
+color:#2e2e32d3;
+
+
+}
+
+.left-side--houly p {
+    font-size: 14px;
+    line-height: 1.5885714285714285em;
+    font-weight: 600;
+color: #7842E8;
+font-family: "Outfit", sans-serif;
+
+}
+
+
+/* ==================FAQ SECTION====---========== */
+
+.section-06 {
+    min-height: 731px;
+    margin-top: 160px;
+}
+
+
+.faq-heading {
+    max-width: 553px;
+    margin: auto;
+    text-align: center;
+}
+.faq-heading h2 {
+    font-size: 42px;
+    line-height:  1.3em;
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    color: #2E2E32;
+}
+
+.faq-heading p {
+    font-size: 16px;
+    line-height:  1.6em;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    color:  #919099;
+    padding-top: 20px;
+    padding-bottom: 64px;
+}
+
+.left-side--FAQ {
+    max-width: 537px;
+    min-height: 540px;
+  
+}
+.main__FAQ {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
