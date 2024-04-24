@@ -1059,13 +1059,13 @@ transition: all 0.5s ease-in-out;
 }
 
 .third-footer {
-max-width: 379px;
-min-height:240px ;
-border: 1px solid #FFF;
+ 
 padding-top: 20px;
 }
 .third-footer h5 {
     color: #FFFF;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
  
 
@@ -1092,8 +1092,16 @@ padding-top: 20px;
 
 #email {
     background-color: #19192D;
-   
+   color: #FFFF;
     border: 1px solid #2B2B3F;
     padding: 10px 12px;
 }
  
+
+
+ .third-p  {
+    color: #FFF;
+ }
+ .third--fotter-box {
+    display: flex;
+ }
