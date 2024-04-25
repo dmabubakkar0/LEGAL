@@ -43,8 +43,76 @@
 /* ========SECTION-03 END===---== */
 
 /* ========SECTION-04 STRAT===---== */
+.section-04 {
+   
+    padding-top: 80px;
+    background-position: top left, right bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.parent-from {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 61px;
+}
 
 
+.first___box {
+    display: flex;
+    gap: 12px;
+    max-width: 556px;
+}
 
+.first___box_text p {
+    font-size: 17px;
+     
+}
+.sect--04_P {
+     
+    padding-bottom: 42px;
+}
     
+/* <!--=============== SECTION-05 ===============--> */
+
+.section-05 {
+    
+    margin-top: 166px;
+    padding-top: 80px;
+}
+
+
+.prent {
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 61px;
+}
+
+.sect-05-heading p {
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #919099;
+    padding-bottom: 50px;
+}
+
+/* ======Section-FAQ =====-==== */
+
+.main__FAQ {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 50px;
+}
+
+
+.FAQ-img {
+    max-width: 350px;
+}
+
+
+
 }

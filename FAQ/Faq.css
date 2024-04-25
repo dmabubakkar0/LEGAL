@@ -1,98 +1,111 @@
-:root {
-    --border-color: #cccccc;
-    --background-color: #f1f1f1;
-    --transition: all 0.2s ease;
-  }
-  
- 
-  main {
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .accordion {
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abril+Fatface&family=Aguafina+Script&family=Outfit:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+.accordion {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    max-width: 500px;
-  }
-  
-  .accordion .accordion-item {
-    background-color: var(--background-color);
-    border-left: 2px solid #917AFF;
- 
-    border-radius: 5px;
-  }
-  
-  .accordion .accordion-item .accordion-item-description-wrapper hr {
-    border: none;
-    border-top: 1px solid var(--border-color);
-    visibility: visible;
-  }
-  
-  .accordion .accordion-item.open .accordion-item-description-wrapper hr {
-    visibility: visible;
-  }
-  
-  .accordion .accordion-item .accordion-item-header {
+    font-family: "Sora", sans-serif;
+    max-width: 991px;
+    min-width: 320px;
+    margin: 50px auto;
+    padding: 0 50px;
+}
+.accordion h1 {
+    font-size: 32px;
+    text-align: center;
+}
+.accordion-item {
+    margin-top: 16px;
+    border-left: 2px solid  #917AFF;
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+.accordion-item .accordion-item-title {
+    position: relative;
+    margin: 0;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding:16px 14px 16px ;
-    border: 1px solid #EBE7FF;
-    background-color: #FFF;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 1.8em;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.3em;
     font-family: "Outfit", sans-serif;
-    font-weight: 400;
-    color:  #919099;
+    font-weight: 600;
+    color: #2E2E32;
+    cursor: pointer;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 14px 8px;
+    box-sizing: border-box;
+    align-items: center;
+  
+
+    
+}
+.accordion-item .accordion-item-desc {
+    display: none;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #444;
+    border-top: 1px dashed #ddd;
+    padding: 10px 20px 20px;
+    box-sizing: border-box;
+}
+.accordion-item input[type="checkbox"] {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+.accordion-item input[type="checkbox"]:checked ~ .accordion-item-desc {
+    display: block;
+}
+.accordion-item
+    input[type="checkbox"]:checked
+    ~ .accordion-item-title
+    .icon:after {
+    content: "-";
+    font-size: 20px;
+    background-color: #917AFF;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    border: none;
+  
+
+}
+.accordion-item input[type="checkbox"] ~ .accordion-item-title .icon:after {
+    content: "+";
+    font-size: 20px;
+    display: flex;
+align-items: center;
+    justify-content: center;
+   
+    
+}
 
 
-  }
- 
-  
-  
-  .accordion .accordion-item .accordion-item-header .accordion-item-header-icon {
-    transition: var(--transition);
-  }
-  
-  .accordion
-    .accordion-item.open
-    .accordion-item-header
-    .accordion-item-header-icon {
-    transform: rotate(-180deg);
-  }
-  
-  .accordion .accordion-item .accordion-item-description-wrapper {
-    display: grid;
-    grid-template-rows: 0fr;
-    overflow: hidden;
-    transition: var(--transition);
-  }
-  
-  .accordion .accordion-item.open .accordion-item-description-wrapper {
-    grid-template-rows: 1fr;
-  }
-  
-  .accordion
-    .accordion-item
-    .accordion-item-description-wrapper
-    .accordion-item-description {
-    min-height: 0;
-    border-left: 2px solid #917AFF;
-  }
-  
-  .accordion
-    .accordion-item
-    .accordion-item-description-wrapper
-    .accordion-item-description
-    p {
-    padding: 10px;
-    line-height: 1.5;
-    background-color:  #fbd6ff33
-  } 
-  
+
+
+
+.accordion-item:first-child {
+    margin-top: 0;
+}
+.accordion-item .icon {
+    margin-left: 14px;
+    background-color: #917AFF;
+    background: transparent;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    height: 18px;
+    border-radius: 10px;
+    border: 1.2px solid #91909979;
+}
+
+@media screen and (max-width: 767px) {
+    .accordion {
+        padding: 0 16px;
+    }
+    .accordion h1 {
+        font-size: 22px;
+    }
+}

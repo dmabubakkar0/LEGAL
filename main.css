@@ -381,7 +381,11 @@
     padding-top: 160px;
 }
 
-
+.heading-04 {
+    max-width: 750px;
+    min-height: 123px;
+    margin: auto;
+}
 .sect--4-H {
     text-align: center;
     font-size: 42px;
@@ -705,11 +709,10 @@ text-align: center;
 
 
 .prent {
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    gap: 61px;
+    display: flex;
+   
+    justify-content: space-between;
 }
-
 
 
 .sect-left-side{
@@ -849,9 +852,9 @@ text-align: center;
 }
 
 .sect--right-side {
-    max-width: 537px;
+   width: 537px;
     min-height: 468px;
-  
+  padding: 24px 24px;
     background-color: #FFF;
 }
 
@@ -952,8 +955,9 @@ font-family: "Outfit", sans-serif;
 .main__FAQ {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 80px;
 }
-
 
 /* <!-- =======SECTION--FOOTER=======----== --> */
 .footer {
