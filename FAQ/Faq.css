@@ -6,7 +6,7 @@
     max-width: 991px;
     min-width: 320px;
     margin: 50px auto;
-    padding: 0 50px;
+    padding: -4px 50px;
 }
 .accordion h1 {
     font-size: 32px;
