@@ -52,7 +52,59 @@
 
 /* ========SECTION-04===---== */
 
+.parent-from {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.section-04 {
+   background-image: none;
+    min-height: 770px;
+    padding-top: 160px;
+}
 
 
+
+
+/* =====SECTION_05===== */
+
+.prent {
+    display: flex;
+    justify-content: space-between;
+  
+    flex-direction: column-reverse;
+}
+
+
+
+
+/* sectio-06====== */
+
+.main__FAQ {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 80px;
+}
+
+
+/* foooter */
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    gap: 80px;
+    align-items: center;
+
+    justify-items: center;
+
+}
+
+
+.secend-footer {
+    display: flex;
+    align-items: center;
+ 
+    gap: 80px;
+}
 
 }
