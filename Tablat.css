@@ -43,6 +43,15 @@
 /* ========SECTION-03 END===---== */
 
 /* ========SECTION-04 STRAT===---== */
+
+.section-04 {
+ background-image: none;
+     min-height: 770px;
+    padding-top: 80px;
+}
+
+
+
 .prant-left__side {
     max-width: 556px;
     min-height: 450px;
@@ -60,9 +69,8 @@
 
 
 .first___box {
-    display: flex;
-    gap: 12px;
-    max-width: 556px;
+   
+    padding-bottom: 10px;
 }
 
 .first___box_text p {
@@ -95,10 +103,8 @@
 
 .prant-left__right {
     max-width: 400px;
-  
-    margin-right: -147px;
+    margin-right: -71px;
 }
-
 
 .tip {
     position: absolute;
@@ -155,7 +161,7 @@
 /* <!--=============== SECTION-05 ===============--> */
 
 .section-05 {
-    margin-top: 80px;
+    margin-top: unset;
     padding-top: 80px;
 }
 
@@ -223,7 +229,7 @@
 }
 
 .sect--right-side {
-    width: 424px;
+    max-width: 424px;
     min-height: 468px;
     padding: 11px 3px;
     background-color: #FFF;
@@ -241,9 +247,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    justify-items: center;
     gap: 50px;
 }
-
 
 .FAQ-img {
     max-width: 350px;
@@ -256,11 +262,21 @@
 
 
 /* ======--=======FOOTER========--- */
+.footer {
+   
+    margin-top: unset;
+    padding-top: 80px;
+}
+
+img.logo--footer {
+    max-width: 150px;
+}
 
 .footer-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    justify-items: center;
     align-items: center;
 }
 #emil-icon {
@@ -270,4 +286,15 @@
     
 }
 
+.secend-footer {
+    display: flex;
+    align-items: center;
+ 
+    gap: 20px;
+}
+
+.product ul  a {
+    font-size: 12px;
+ 
+}
 }

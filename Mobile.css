@@ -55,6 +55,7 @@
 .parent-from {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
 }
 .section-04 {
    background-image: none;
@@ -62,20 +63,142 @@
     padding-top: 160px;
 }
 
+.sect--4-H {
+    
+    font-size: 28px;
+    
+}
+.sect--04_P {
+ 
+    font-size: 16px;
+ 
+}
 
-
-
-/* =====SECTION_05===== */
 
 .prent {
     display: flex;
-    justify-content: space-between;
-  
+    justify-content:  center;
+    align-items: center;
     flex-direction: column-reverse;
+    gap: 40px;
+}
+
+.secend___box {
+    display: flex;
+    gap: 12px;
+    padding-top: 30px;
+    position: unset;
+    padding-right: 45px;
+}
+
+.first___box {
+    display: flex;
+    gap: 12px;
+    
+    padding-right: 60px;
+}
+.first__box_img {
+    background-color: #ffffff93;
+    width: 76px;
+    height: 76px;
+    padding: 16px 16px;
+    border-radius: 58px;
+    ;
+}
+
+.secend__box_img {
+     
+    width: 76px;
+    height: 76px;
+    padding: 16px 16px;
+    border-radius: 58px;
+}
+.third__box_img {
+ 
+    width: 76px;
+    height: 76px;
+    padding: 16px 16px;
+    border-radius: 58px;
+  
+}
+.prant-left__right {
+ background-image: none;
+}
+.chart-img {
+    max-width: 300px;
+}
+
+.babli-prent {
+ 
+    justify-content: center;
+}
+.prant-left__side {
+    max-width: 364px;
+    min-height: 450px;
+    background-image: none;
+}
+.case {
+ position: unset;
+}
+
+.third___box {
+    position: unset;
+    padding-top: 20px;
+    padding-right: 60px;
+}
+/* ...SECTION====05 */
+.right-h2 {
+ 
+    font-size: 28px;
+ 
+    padding-top: 16px;
+    padding-bottom: 15px;
+  
+}
+
+/* =====SECTION_06===== */
+
+.main__FAQ {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+ justify-items: center;
+    gap: unset;
+    justify-items: center;
+}
+
+
+.section-04 {
+    background-image: none;
+    
+    padding-top: 160px;
+}
+
+.sect--right-side {
+    width: 397px;
+    min-height: 468px;
+   
 }
 
 
 
+#browser {
+    max-width: 167px;
+ 
+}
+.spnt-img {
+    max-width: 250px;
+}
+.rate-img {
+    max-width: 250px;
+}
+
+.selected {
+    padding-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+ 
+}
 
 /* sectio-06====== */
 
@@ -83,9 +206,15 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
-    gap: 80px;
+    gap: unset;
 }
 
+
+
+.FAQ-img {
+    max-width: 272px;
+    padding-top: 257px;
+}
 
 /* foooter */
 
