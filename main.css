@@ -1087,8 +1087,10 @@ transition: all 0.5s ease-in-out;
 padding-top: 20px;
 }
 .third-footer h5 {
-    color: #FFFF;
-    font-size: 20px;
+    color: #DBDADF;
+    font-size: 18px;
+    line-height: 1.333333333em;
+    font-weight: 400;
     padding-bottom: 20px;
 }
  
@@ -1128,4 +1130,42 @@ padding-top: 20px;
  }
  .third--fotter-box {
     display: flex;
+ }
+ .checkbox{
+    max-width: 339px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 16px;
+ }
+ .send-icon{
+    
+    display:flex ;
+    align-items: center;
+ }
+ .third-p {
+    font-size: 14px;
+    line-height: 1.2222em;
+    font-weight: 400;
+    color:#919099;
+ }
+ .span-01 {
+    color: #7842E8;
+ }
+ .span-02{
+    color: 
+    #7842E8;
+ }
+
+ .send-icon{
+    background-color: #7842E8;
+    padding: 12px 16px 12px 16px;
+    border-radius: 8px;
+    color: #FFF;
+    transition: 0.50s ease-in-out;
+ }
+ .send-icon:hover{
+    background-color: transparent ;
+    border: 1px solid #919099;
+   
  }

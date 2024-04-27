@@ -236,4 +236,11 @@
     gap: 80px;
 }
 
+#emil-icon {
+    position: absolute;
+    padding-top: 14px;
+    right: 154px;
+    color: #FFF;
+}
+
 }
